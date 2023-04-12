@@ -36,3 +36,5 @@ If you find our paper useful in your research, please consider citing:
     python split.py
   ```
    
+## Model
+You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
