@@ -21,3 +21,9 @@ If you find our paper useful in your research, please consider citing:
       journal={arXiv preprint arXiv:2304.05071},
       year={2023}
     }
+    
+## Requirements
+* Linux (Ubuntu)
+* Python = 3.9
+* Pytorch = 1.13.1
+* NVIDIA GPU + CUDA CuDNN
