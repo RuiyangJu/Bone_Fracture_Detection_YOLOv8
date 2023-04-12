@@ -46,6 +46,7 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
 <p align="center">
   <img src="img/figure_result.jpg" width="640" title="Stage-1">
 </p>
+Examples of the prediction of YOLOv8l model with the input image of 1024 in the GRAZPEDWRI-DX test set. (a) manually labeled images, (b) predicted images.
 
 
 ## Application
