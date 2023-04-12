@@ -31,13 +31,16 @@ If you find our paper useful in your research, please consider citing:
 ## Dataset
 * GRAZPEDWRI-DX Dataset [(Download Link)](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193)
 * Download dataset and put images and annotatation into `/GRAZPEDWRI-DX_dataset/data/images`, `/GRAZPEDWRI-DX_dataset/data/labels`.
-
   ```
     python split.py
   ```
    
 ## Model
 You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
+* Pip install ultralytics and dependencies and check software and hardware.
+  ```
+    %pip install ultralytics
+  ```
 
 ## Experimental Results
 <p align="center">
