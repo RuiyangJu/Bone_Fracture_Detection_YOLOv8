@@ -46,3 +46,7 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
 <p align="center">
   <img src="img/figure_result.jpg" width="640" title="Stage-1">
 </p>
+
+
+## Application
+For research project agreement, we don't release training code, please refer to [YOLOv7 Bone Fracture Detection](https://github.com/mdciri/YOLOv7-Bone-Fracture-Detection) and our paper for details.
