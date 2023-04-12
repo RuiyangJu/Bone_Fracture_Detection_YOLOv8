@@ -32,5 +32,7 @@ If you find our paper useful in your research, please consider citing:
 * GRAZPEDWRI-DX Dataset [(Download Link)](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193)
 * Download dataset and put images and annotatation into `/GRAZPEDWRI-DX_dataset/data/images`, `/GRAZPEDWRI-DX_dataset/data/labels`.
 
+  ```
     python split.py
-    
+  ```
+   
