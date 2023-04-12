@@ -38,3 +38,8 @@ If you find our paper useful in your research, please consider citing:
    
 ## Model
 You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
+
+## Experimental Results
+<p align="center">
+  <img src="img/figure_result.jpg" width="640" title="Stage-1">
+</p>
