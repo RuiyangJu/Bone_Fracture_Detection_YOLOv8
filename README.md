@@ -4,7 +4,7 @@
   <img src="img/figure_details.jpg" width="640" title="Stage-1">
 </p>
 
-### SwinOIR Network Architecture
+### Fracture Detection Using YOLOv8 App
 <p align="center">
   <img src="img/figure_application.jpg" width="640" title="Stage-2">
 </p>
