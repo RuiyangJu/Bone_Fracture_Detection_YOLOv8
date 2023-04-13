@@ -48,6 +48,16 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
 </p>
 Examples of the prediction of YOLOv8l model with the input image of 1024 in the GRAZPEDWRI-DX test set. (a) manually labeled images, (b) predicted images.
 
+### YOLOv8 models on GRAZPEDWRI-DX dataset
+| Option | Input | GT | FM↑ | p-FM↑ | PSNR↑ | DRD↓ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | \ | \ | 96.50 | 97.50 | 22.08 | 1.01 |
+| 2 | \ | DWT(LL) | 96.52 | 97.70 | 22.15 | 0.99 |
+| 3 | \ | DWT(LL)+Norm | **96.88** | **98.03** | **22.68** | **0.89** |
+| 4 | DWT(LL) | \  | 95.94 | 96.91 | 21.31 | 1.19 |
+| 5 | DWT(LL)+Norm | \ | 96.29 | 97.48 | 22.05 | 1.16 |
+| 6 | DWT(LL) | DWT(LL) | 96.60 | 97.60 | 22.27 | 0.97 |
+| 7 | DWT(LL)+Norm | DWT(LL)+Norm | 96.77 | 97.89 | 22.52 | 0.91 | 
 
 ## Application
 For research project agreement, we don't release training code, please refer to [YOLOv7 Bone Fracture Detection](https://github.com/mdciri/YOLOv7-Bone-Fracture-Detection) and our paper for details.
