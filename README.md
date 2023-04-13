@@ -49,15 +49,16 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
 Examples of the prediction of YOLOv8l model with the input image of 1024 in the GRAZPEDWRI-DX test set. (a) manually labeled images, (b) predicted images.
 
 ### YOLOv8 models on GRAZPEDWRI-DX dataset
-| Option | Input | GT | FM↑ | p-FM↑ | PSNR↑ | DRD↓ |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | \ | \ | 96.50 | 97.50 | 22.08 | 1.01 |
-| 2 | \ | DWT(LL) | 96.52 | 97.70 | 22.15 | 0.99 |
-| 3 | \ | DWT(LL)+Norm | **96.88** | **98.03** | **22.68** | **0.89** |
-| 4 | DWT(LL) | \  | 95.94 | 96.91 | 21.31 | 1.19 |
-| 5 | DWT(LL)+Norm | \ | 96.29 | 97.48 | 22.05 | 1.16 |
-| 6 | DWT(LL) | DWT(LL) | 96.60 | 97.60 | 22.27 | 0.97 |
-| 7 | DWT(LL)+Norm | DWT(LL)+Norm | 96.77 | 97.89 | 22.52 | 0.91 | 
+| Model | Size (pixels) | mAP 50 | mAP 50-95 | CPU Speed (ms) | GPU Speed (ms) | Params (M) | FLOPs (B) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| YOLOv8n | 640 | 0.601 | 0.374 | 67.4 | 2.9 | 3.0 | 8.1 |
+| YOLOv8s | 640 | 0.604 | 0.383 | 191.5 | 4.3 | 11.1 | 28.5 |
+| YOLOv8m | 1024 | 0.631 | 0.403 | 536.4 | 5.5 | 25.8 | 78.7 |
+| YOLOv8l | 1024 | 0.620 | 0.403 | 1006.3 | 7.4 | 43.6 | 164.9 |
+| YOLOv8n | 640 | 0.605 | 0.387 | 212.1 | 3.3 | 3.0 | 8.1 |
+| YOLOv8s | 640 | 0.622 | 0.399 | 519.5 | 4.9 | 11.1 | 28.5 |
+| YOLOv8m | 1024 | 0.614 | 0.399 | 1521.5 | 10.0 | 25.8 | 78.7 |
+| YOLOv8l | 1024 | 0.636 | 0.404 | 2671.1 | 15.1 | 43.6 | 164.9 | 
 
 ## Application
 For research project agreement, we don't release training code, please refer to [YOLOv7 Bone Fracture Detection](https://github.com/mdciri/YOLOv7-Bone-Fracture-Detection) and our paper for details.
