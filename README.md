@@ -1,12 +1,12 @@
 ## [Fracture Detection in Pediatric Wrist Trauma X-ray Images Using YOLOv8 Algorithm](https://arxiv.org/abs/2304.05071)
 ### YOLOv8 architecture
 <p align="center">
-  <img src="img/figure_details.jpg" width="640" title="Stage-1">
+  <img src="img/figure_details.jpg" width="640" title="details">
 </p>
 
 ### Fracture Detection Using YOLOv8 App
 <p align="center">
-  <img src="img/figure_application.jpg" width="640" title="Stage-2">
+  <img src="img/figure_application.jpg" width="640" title="application">
 </p>
 
 ## Abstract
@@ -44,21 +44,18 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
 
 ## Experimental Results
 <p align="center">
-  <img src="img/figure_result.jpg" width="640" title="Stage-1">
+  <img src="img/figure_result.jpg" width="640" title="result">
 </p>
 The prediction examples of our model on the pediatric wrist trauma X-ray images. (a) the manually labeled images, (b) the predicted images.
 
-### YOLOv8 models on GRAZPEDWRI-DX dataset
-| Model | Size (pixels) | mAP 50 | mAP 50-95 | CPU Speed (ms) | GPU Speed (ms) | Params (M) | FLOPs (B) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| YOLOv8n | 640 | 0.601 | 0.374 | 67.4 | 2.9 | 3.0 | 8.1 |
-| YOLOv8s | 640 | 0.604 | 0.383 | 191.5 | 4.3 | 11.1 | 28.5 |
-| YOLOv8m | 1024 | 0.631 | 0.403 | 536.4 | 5.5 | 25.8 | 78.7 |
-| YOLOv8l | 1024 | 0.620 | 0.403 | 1006.3 | 7.4 | 43.6 | 164.9 |
-| YOLOv8n | 640 | 0.605 | 0.387 | 212.1 | 3.3 | 3.0 | 8.1 |
-| YOLOv8s | 640 | 0.622 | 0.399 | 519.5 | 4.9 | 11.1 | 28.5 |
-| YOLOv8m | 1024 | 0.614 | 0.399 | 1521.5 | 10.0 | 25.8 | 78.7 |
-| YOLOv8l | 1024 | 0.636 | 0.404 | 2671.1 | 15.1 | 43.6 | 164.9 | 
+### Quantitative comparison (mean average precision) with state-of-the-art models on the GRAZPEDWRI-DX dataset
+<p align="center">
+  <img src="img/figure_640.jpg" width="640" title="640">
+</p>
+
+<p align="center">
+  <img src="img/figure_640.jpg" width="1024" title="1024">
+</p>
 
 ## Application
 For research project agreement, we don't release training code, please refer to [YOLOv7 Bone Fracture Detection](https://github.com/mdciri/YOLOv7-Bone-Fracture-Detection) and our paper for details.
