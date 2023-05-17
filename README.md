@@ -46,7 +46,7 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
 <p align="center">
   <img src="img/figure_result.jpg" width="640" title="Stage-1">
 </p>
-Examples of the prediction of YOLOv8l model with the input image of 1024 in the GRAZPEDWRI-DX test set. (a) manually labeled images, (b) predicted images.
+The prediction examples of our model on the pediatric wrist trauma X-ray images. (a) the manually labeled images, (b) the predicted images.
 
 ### YOLOv8 models on GRAZPEDWRI-DX dataset
 | Model | Size (pixels) | mAP 50 | mAP 50-95 | CPU Speed (ms) | GPU Speed (ms) | Params (M) | FLOPs (B) |
