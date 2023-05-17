@@ -43,19 +43,19 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
   ```
 
 ## Experimental Results
-<p align="center">
-  <img src="img/figure_result.jpg" width="640" title="result">
-</p>
-The prediction examples of our model on the pediatric wrist trauma X-ray images. (a) the manually labeled images, (b) the predicted images.
 
-### Quantitative comparison (mean average precision) with state-of-the-art models on the GRAZPEDWRI-DX dataset
 <p align="center">
   <img src="img/figure_640.jpg" width="640" title="640">
 </p>
 
 <p align="center">
-  <img src="img/figure_640.jpg" width="1024" title="1024">
+  <img src="img/figure_1024.jpg" width="1024" title="1024">
 </p>
+
+<p align="center">
+  <img src="img/figure_result.jpg" width="640" title="result">
+</p>
+The prediction examples of our model on the pediatric wrist trauma X-ray images. (a) the manually labeled images, (b) the predicted images.
 
 ## Application
 For research project agreement, we don't release training code, please refer to [YOLOv7 Bone Fracture Detection](https://github.com/mdciri/YOLOv7-Bone-Fracture-Detection) and our paper for details.
