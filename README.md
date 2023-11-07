@@ -42,6 +42,8 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
     pip install ultralytics
   ```
 
+## CLI
+
 ## Trained Model
 Use gdown to download the trained model from our GitHub:
 ```
