@@ -55,7 +55,7 @@ gdown https://github.com/RuiyangJu/Bone_Fracture_Detection_YOLOv8/releases/downl
 </p>
 
 <p align="center">
-  <img src="img/figure_1024.jpg" width="1024" title="1024">
+  <img src="img/figure_1024.jpg" width="640" title="1024">
 </p>
 
 <p align="center">
