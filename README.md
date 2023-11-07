@@ -45,7 +45,7 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
 ## Trained Model
 Use gdown to download the trained model from our GitHub:
 ```
-gdown https://github.com/RuiyangJu/YOLO_SR/releases/download/Trained_Model/Trained_Model.zip
+gdown https://github.com/RuiyangJu/Bone_Fracture_Detection_YOLOv8/releases/download/Trained_Model/trained_model.zip
 ```
 
 ## Experimental Results
