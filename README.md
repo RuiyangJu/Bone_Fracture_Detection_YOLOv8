@@ -47,6 +47,10 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
 ```
   yolo train model=yolov8n.pt data=meta.yaml epochs=100 batch=16 imgsz=640 save=True workers=4 pretrained=yolov8n.pt optimizer=Adam lr0=0.001
 ```
+### Validate 
+```
+  yolo val model="/path/to/best.pt" data=meta.yaml
+```
 
 ## Trained Model
 Use gdown to download the trained model from our GitHub:
