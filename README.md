@@ -53,6 +53,33 @@ For example:
 ## Model
 You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
 ### Train
+* meta.yaml
+
+    └── GRAZPEDWRI-DX_dataset     
+         ├── yolov5
+         │    ├── images
+         │    └── labels
+         ├── images
+         │    ├── train
+         │    │    ├── train_img1.png
+         │    │    └── ...
+         │    ├── valid
+         │    │    ├── valid_img1.png
+         │    │    └── ...
+         │    └── test
+         │         ├── test_img1.png
+         │         └── ...
+         └── labels
+              ├── train
+              │    ├── train_annotation1.txt
+              │    └── ...
+              ├── valid
+              │    ├── valid_annotation1.txt
+              │    └── ...
+              └── test
+                   ├── test_annotation1.txt
+                   └── ...
+                   
 * Arguments
 
 | Key | Value | Description |
