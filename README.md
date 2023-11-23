@@ -29,11 +29,20 @@ If you find our paper useful in your research, please consider citing:
 * NVIDIA GPU + CUDA CuDNN
 
 ## Dataset
+### Dataset Split
 * GRAZPEDWRI-DX Dataset [(Download Link)](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193)
 * Download dataset and put images and annotatation into `./GRAZPEDWRI-DX_dataset/data/images`, `./GRAZPEDWRI-DX_dataset/data/labels`.
   ```
     python split.py
   ```
+### Data Augmentation
+```
+  python imgaug.py --input_img /path/to/input/train/ --output_img /path/to/output/train/ --input_label /path/to/input/labels/ --output_label /path/to/output/labels/
+```
+For example:
+```
+  python imgaug.py --input_img ./GRAZPEDWRI-DX/data/images/train/ --output_img ./train/ --input_label ./GRAZPEDWRI-DX/data/labels/train/ --output_label ./labels/
+```
    
 ## Model
 You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
