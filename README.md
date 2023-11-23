@@ -155,7 +155,7 @@ Use gdown to download the trained model from our GitHub:
 
 ### Validate 
 ```
-  yolo val model="/path/to/best.pt" data=meta.yaml
+  yolo val model=/path/to/best.pt data=/path/to/meta.yaml
 ```
 
 ## Experimental Results
