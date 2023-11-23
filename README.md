@@ -36,7 +36,7 @@ If you find our paper useful in your research, please consider citing:
     python split.py
   ```
 ### Data Augmentation
-* 
+Data augmentation of the training set using the addWeighted function doubles the size of the training set.
 ```
   python imgaug.py --input_img /path/to/input/train/ --output_img /path/to/output/train/ --input_label /path/to/input/labels/ --output_label /path/to/output/labels/
 ```
