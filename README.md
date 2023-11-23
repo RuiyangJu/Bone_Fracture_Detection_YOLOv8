@@ -144,8 +144,9 @@ Before training the model, make sure the path to the data in the `meta.yaml` fil
 * Example
 ```
   cd Bone_Fracture_Detection_YOLOv8
-  yolo train model=yolov8n.pt data=meta.yaml epochs=100 batch=16 imgsz=640 save=True workers=4 pretrained=yolov8n.pt optimizer=Adam lr0=0.001
+  yolo train model=yolov8n.pt data=./GRAZPEDWRI-DX/data/meta.yaml epochs=100 batch=16 imgsz=640 save=True device=0 workers=4 pretrained=yolov8n.pt optimizer=SGD lr0=0.01
 ```
+
 ### Validate 
 ```
   yolo val model="/path/to/best.pt" data=meta.yaml
