@@ -55,6 +55,7 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
 ### Train
 * meta.yaml
 
+
     └── GRAZPEDWRI-DX_dataset     
          ├── yolov5
          │    ├── images
@@ -79,6 +80,7 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
               └── test
                    ├── test_annotation1.txt
                    └── ...
+
                    
 * Arguments
 
