@@ -154,6 +154,19 @@ Use gdown to download the trained model from our GitHub:
 ```
 
 ### Validate 
+* Arguments
+
+| Key | Value | Description |
+| :---: | :---: | :---: |
+| data | None | path to data file, i.e. coco128.yaml |
+| imgsz | 640 | size of input images as integer, i.e. 640, 1024 |
+| batch | 16 | number of images per batch (-1 for AutoBatch) |
+| save_json | False | save results to JSON file |
+| save_hybrid | False | save hybrid version of labels (labels + additional predictions) |
+| conf | 0.001 | object confidence threshold for detection |
+| iou | 0.6 | intersection over union (IoU) threshold for NMS |
+
+* CLI
 ```
   yolo val model=/path/to/best.pt data=/path/to/meta.yaml
 ```
