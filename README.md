@@ -28,6 +28,11 @@ If you find our paper useful in your research, please consider citing:
 * Pytorch = 1.13.1
 * NVIDIA GPU + CUDA CuDNN
 
+## Environment
+```
+  pip install -r requirements.txt
+```
+
 ## Dataset
 ### Dataset Split
 * GRAZPEDWRI-DX Dataset [(Download Link)](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193)
