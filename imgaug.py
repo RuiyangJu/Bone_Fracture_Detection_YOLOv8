@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 
-imgdir = "../data/images/"
+imgdir = "../data/images/train/"
 # labeldir = "../labels/"
 
 for root, dirs, files in os.walk(imgdir):
