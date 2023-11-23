@@ -85,6 +85,7 @@ For example:
 You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
 ### Train
 * meta.yaml
+Before training the model, make sure the path to the data in the `meta.yaml` file is correct.
 
 
        GRAZPEDWRI-DX_dataset
