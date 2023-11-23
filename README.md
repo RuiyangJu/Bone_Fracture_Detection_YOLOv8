@@ -178,5 +178,5 @@ For research project agreement, we don't release APP code, please refer to [YOLO
 
 ### Fracture Detection Using YOLOv8 App
 <p align="center">
-  <img src="img/figure_application.jpg" width="640" title="application">
+  <img src="img/figure_application.jpg" width="1024" title="application">
 </p>
