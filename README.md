@@ -43,6 +43,7 @@ If you find our paper useful in your research, please consider citing:
 * The dataset is divided into training, validation, and testing set (70-20-10 %) according to the key `patient_id` stored in `dataset.csv`.
 * The script then will move the files into the relative folder as it is represented here below.
 
+
      GRAZPEDWRI-DX_dataset
         └── data   
              ├── meta.yaml
@@ -67,9 +68,8 @@ If you find our paper useful in your research, please consider citing:
                        ├── test_annotation1.txt
                        └── ...
 
+
 The script will create 3 files: `train_data.csv`, `valid_data.csv`, and `test_data.csv` with the same structure of `dataset.csv`.
-
-
 
 ### Data Augmentation
 * Data augmentation of the training set using the addWeighted function doubles the size of the training set.
@@ -85,6 +85,7 @@ For example:
 You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
 ### Train
 * meta.yaml
+
 
      GRAZPEDWRI-DX_dataset
         └── data   
