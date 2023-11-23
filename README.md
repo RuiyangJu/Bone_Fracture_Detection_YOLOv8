@@ -94,6 +94,9 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
                │    ├── train
                │    │    ├── train_img1.png
                │    │    └── ...
+               │    ├── train_aug
+               │    │    ├── train_aug_img1.png
+               │    │    └── ...
                │    ├── valid
                │    │    ├── valid_img1.png
                │    │    └── ...
@@ -103,6 +106,9 @@ You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](http
                └── labels
                     ├── train
                     │    ├── train_annotation1.txt
+                    │    └── ...
+                    ├── train_aug
+                    │    ├── train_aug_annotation1.txt
                     │    └── ...
                     ├── valid
                     │    ├── valid_annotation1.txt
