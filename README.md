@@ -161,15 +161,15 @@ Use gdown to download the trained model from our GitHub:
 ## Experimental Results
 
 <p align="center">
-  <img src="img/figure_640.jpg" width="640" title="640">
+  <img src="img/figure_640.jpg" width="1024" title="640">
 </p>
 
 <p align="center">
-  <img src="img/figure_1024.jpg" width="640" title="1024">
+  <img src="img/figure_1024.jpg" width="1024" title="1024">
 </p>
 
 <p align="center">
-  <img src="img/figure_result.jpg" width="640" title="result">
+  <img src="img/figure_result.jpg" width="1024" title="result">
 </p>
 The prediction examples of our model on the pediatric wrist trauma X-ray images. (a) the manually labeled images, (b) the predicted images.
 
