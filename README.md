@@ -52,12 +52,6 @@ For example:
    
 ## Model
 You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
-* Pip install ultralytics and [dependencies](https://github.com/ultralytics/ultralytics/blob/main/requirements.txt) and check software and hardware.
-  ```
-    pip install ultralytics
-  ```
-
-## CLI
 ### Train
 * Arguments
 
