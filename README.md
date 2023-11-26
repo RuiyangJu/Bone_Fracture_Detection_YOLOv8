@@ -116,10 +116,16 @@ For example:
 ## Model
 You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
 ### Train
-* meta.yaml
-
 Before training the model, make sure the path to the data in the `meta.yaml` file is correct.
-                   
+* meta.yaml
+```
+  # patch: /path/to/GRAZPEDWRI-DX/data
+  path: 'E:/GRAZPEDWRI-DX/data'
+  train: 'images/train_aug'
+  val: 'images/valid'
+  test: 'images/test'
+```
+
 * Arguments
 
 | Key | Value | Description |
