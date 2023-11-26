@@ -80,14 +80,6 @@ For example:
 ```
   python imgaug.py --input_img ./GRAZPEDWRI-DX/data/images/train/ --output_img ./GRAZPEDWRI-DX/data/images/train_aug/ --input_label ./GRAZPEDWRI-DX/data/labels/train/ --output_label ./GRAZPEDWRI-DX/data/labels/train_aug/
 ```
-   
-## Model
-You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
-### Train
-* meta.yaml
-
-Before training the model, make sure the path to the data in the `meta.yaml` file is correct.
-
 
        GRAZPEDWRI-DX_dataset
           └── data   
@@ -118,7 +110,13 @@ Before training the model, make sure the path to the data in the `meta.yaml` fil
                     └── test
                          ├── test_annotation1.txt
                          └── ...
+                         
+## Model
+You can get the open source code of YOLOv8 through [YOLOv8 official GitHub](https://github.com/ultralytics/ultralytics).
+### Train
+* meta.yaml
 
+Before training the model, make sure the path to the data in the `meta.yaml` file is correct.
                    
 * Arguments
 
