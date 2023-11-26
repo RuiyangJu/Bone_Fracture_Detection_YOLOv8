@@ -81,6 +81,8 @@ For example:
   python imgaug.py --input_img ./GRAZPEDWRI-DX/data/images/train/ --output_img ./GRAZPEDWRI-DX/data/images/train_aug/ --input_label ./GRAZPEDWRI-DX/data/labels/train/ --output_label ./GRAZPEDWRI-DX/data/labels/train_aug/
 ```
 
+* The path of the processed file is shown below:
+
        GRAZPEDWRI-DX_dataset
           └── data   
                ├── meta.yaml
