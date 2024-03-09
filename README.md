@@ -15,12 +15,16 @@ Hospital emergency departments frequently receive lots of bone fracture cases, w
 ## Citation
 If you find our paper useful in your research, please consider citing:
 
-    @article{ju2023fracture,
-      title={Fracture Detection in Pediatric Wrist Trauma X-ray Images Using YOLOv8 Algorithm},
-      author={Ju, Rui-Yang and Cai, Weiming},
-      journal={arXiv preprint arXiv:2304.05071},
-      year={2023}
-    }
+  @article{ju2023fracture,
+    title={Fracture detection in pediatric wrist trauma X-ray images using YOLOv8 algorithm},
+    author={Ju, Rui-Yang and Cai, Weiming},
+    journal={Scientific Reports},
+    volume={13},
+    number={1},
+    pages={20077},
+    year={2023},
+    publisher={Nature Publishing Group UK London}
+  }
     
 ## Requirements
 * Linux (Ubuntu)
