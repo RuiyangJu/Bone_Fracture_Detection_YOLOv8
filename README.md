@@ -203,3 +203,12 @@ For research project agreement, we don't release APP code, please refer to [YOLO
 <p align="center">
   <img src="img/figure_application.jpg" width="1024" title="application">
 </p>
+
+## Related Works
+
+<details><summary> <b>Expand</b> </summary>
+
+* [https://github.com/RuiyangJu/Fracture_Detection_Improved_YOLOv8](https://github.com/RuiyangJu/Fracture_Detection_Improved_YOLOv8)
+* [https://github.com/RuiyangJu/YOLOv9-Fracture-Detection](https://github.com/RuiyangJu/YOLOv9-Fracture-Detection)
+
+</details>
