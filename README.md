@@ -181,6 +181,17 @@ Use gdown to download the trained model from our GitHub:
   yolo val model=/path/to/best.pt data=/path/to/meta.yaml
 ```
 
+### Predict
+* CLI
+```
+  yolo predict model=/path/to/best.pt source=/path/to/image
+```
+
+* Example
+```
+  yolo predict model=best.pt source='./test.png'
+```
+
 ## Experimental Results
 
 <p align="center">
