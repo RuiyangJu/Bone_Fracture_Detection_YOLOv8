@@ -1,4 +1,4 @@
-# Fracture Detection in Pediatric Wrist Trauma X-ray Images Using YOLOv8 Algorithm
+# YOLOv8 for Fracture Detection 
 
 >[Fracture Detection in Pediatric Wrist Trauma X-ray Images Using YOLOv8 Algorithm](https://arxiv.org/abs/2304.05071)
 
