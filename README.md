@@ -22,12 +22,6 @@ If you find our paper useful in your research, please consider citing:
       year={2023},
       publisher={Nature Publishing Group UK London}
     }
-    
-## Requirements
-* Linux (Ubuntu)
-* Python = 3.9
-* Pytorch = 1.13.1
-* NVIDIA GPU + CUDA CuDNN
 
 ## Environment
 ```
