@@ -2,6 +2,8 @@
 
 >[Fracture Detection in Pediatric Wrist Trauma X-ray Images Using YOLOv8 Algorithm](https://arxiv.org/abs/2304.05071)
 
+## :tada::tada::tada:NEWS:
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/fracture-detection-in-pediatric-wrist-trauma/object-detection-on-grazpedwri-dx)](https://paperswithcode.com/sota/object-detection-on-grazpedwri-dx?p=fracture-detection-in-pediatric-wrist-trauma)
 
 ### YOLOv8 architecture
