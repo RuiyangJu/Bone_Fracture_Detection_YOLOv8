@@ -30,12 +30,13 @@ If you find our paper useful in your research, please consider citing:
 
 ## Dataset
 ### Dataset Split
-* GRAZPEDWRI-DX Dataset [(Download Link)](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193)
+* You can find the original GRAZPEDWRI-DX dataset [here](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193).
 * Download dataset and put images and annotatation into `./GRAZPEDWRI-DX_dataset/data/images`, `./GRAZPEDWRI-DX_dataset/data/labels`.
   ```
     python split.py
   ```
 * The dataset is divided into training, validation, and testing set (70-20-10 %) according to the key `patient_id` stored in `dataset.csv`.
+  You can download our split dataset [here](https://1drv.ms/u/s!Ap6uuRvdVcJWbQfOvTHl5hMuA5o?e=geFa32).
 * The script then will move the files into the relative folder as it is represented here below.
 
 
