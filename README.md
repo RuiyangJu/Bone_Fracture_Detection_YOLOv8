@@ -4,8 +4,6 @@
 
 ## :tada::tada::tada: NEWS: [Our split dataset is available now !!!](https://ruiyangju.github.io/GRAZPEDWRI-DX_JU/)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/fracture-detection-in-pediatric-wrist-trauma/fracture-detection-on-grazpedwri-dx)](https://paperswithcode.com/sota/fracture-detection-on-grazpedwri-dx?p=fracture-detection-in-pediatric-wrist-trauma)
-
 ### YOLOv8 architecture
 <p align="center">
   <img src="img/figure_details.jpg" width="640" title="details">
